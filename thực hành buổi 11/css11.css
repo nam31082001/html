@@ -1,0 +1,34 @@
+#a{
+    text-align: center;
+}
+#b{
+    
+    text-align: center;
+    margin: auto;
+}
+#c{
+    margin:auto;
+    text-align: center;
+    padding:50px;
+    font-size: 80px;
+
+}
+#d{
+    width: 40%;
+    width: 684px;
+    height: 684px;
+    float:left;
+    padding:50px;
+   
+}
+#e{
+    width:50%;
+    width: 684px;
+    height: 648px;
+    float: left;
+}
+#k{
+    width: 400px;
+    height: 648px;
+    padding-top: 200px;
+}
