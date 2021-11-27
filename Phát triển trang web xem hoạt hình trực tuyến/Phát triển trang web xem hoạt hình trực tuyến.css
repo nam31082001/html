@@ -1,0 +1,55 @@
+#head{
+    width:100%;
+    height:100px;
+    background-color: burlywood;
+}
+h1{
+   display:inline;
+}
+#nv{
+    width:100%;
+    height:25px;
+    margin-top: 5px;
+}
+table{
+    margin: auto;
+    width: 60%;
+    border:1px solid white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#section{
+    width: 30%;
+    height:1450px;
+    margin-top: 10px;
+    float: left;
+}
+#section video{
+    width: 100%;
+    
+}
+#section1{
+    width:65%;
+    height:1450px;
+    margin-top:10px;
+    margin-left:2.5%;
+    float:left;
+  
+}
+#section1 video{
+    width:100%;
+    height: 800px;
+}
+#foothr{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    color:white;
+    float: left;
+}
+#foothr p{
+    margin:50px
+}
+
