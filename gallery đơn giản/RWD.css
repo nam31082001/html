@@ -1,0 +1,29 @@
+div::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+img{
+    width: 300px;
+    height:150px;
+    opacity: 0.1;
+}
+img:hover{
+    opacity: 1;
+}
+div{
+    width: 300px;
+    float:left;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:700px) and (min-width:500px){
+    div{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    div{
+        margin-left: 80px;
+    }
+}
