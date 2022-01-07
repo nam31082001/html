@@ -1,0 +1,214 @@
+.header{
+    width:100%;
+    height:100px;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    border: 2px solid white;
+    background-color: aqua;
+   .header__img{
+       width: 15%;
+       height:100px;
+       float:left;
+       color:palevioletred;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           img{
+               width:100px;
+           }
+   }
+   .header__menu{
+       width: 55%;
+       height:100px;
+       float: left;
+       ul{
+         
+           padding: 0;
+           list-style: none;
+           
+           li{
+              float:left;
+              margin:20px 10px;
+              font-size: 20px;
+              a{
+                  color:black;
+              }
+           }
+       }
+
+   }
+   .header__button{
+    width: 20%;
+    height:100px;
+    float: left;
+    form{
+        margin-top: 20px;
+        display: flex;
+    }
+   }
+   .header__login{
+       float: left;
+    width: 5%;
+    height:100px;
+    margin-left: 20px;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+   }
+}
+section{
+    margin-top: 100px;
+    width: 60%;
+    // background-color:rgb(157, 230, 162);
+    margin-left:10%;
+    float:left;
+
+    .img{
+        width: 90%;
+        height:500px;
+        // background-color: rgb(208, 16, 16);
+        margin: auto;
+        float: right;
+        img{
+            width: 820.35px;
+            height:500px;
+        }
+    }
+    .section{
+        width: 100%;
+        float: left;
+        table{
+            margin-left: 70px;
+            font-size: 20px;
+            th{
+                padding:  0 20px;
+            }
+        }
+    }
+   
+}
+aside{
+    width:25%;
+    height:1000px;
+    float:left;
+    margin-top:200px ;
+    .aside__header{
+        width: 80%;
+        height:300px;
+        margin: auto;
+        table{
+            width: 80%;
+            height:150px;
+            margin: auto;
+             th{
+                 padding:5px 10px;
+             }
+        }
+    }
+    .section{
+        width: 80%;
+        height:150px;
+        margin: 20px auto;
+        button{
+            width: 70%;
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: 500px;
+    // background-color: red;
+    float:left;
+    .footer__lienquan{
+        width: 100%;
+        height: 400px;
+        img{
+            width: 303.84px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        // background-color: rgb(220, 201, 201);
+        #combo1{
+            width: 20%;
+            height: 400px;
+            background-color: whitesmoke;
+            float: left;
+            margin: 0 2%;
+            border-radius: 10px;
+        }
+        #combo1:hover{
+            box-shadow: 3px 5px wheat;
+            transform: translateY(10px);
+        }
+        #combo2{
+            width: 20%;
+            height: 400px;
+            background-color: whitesmoke;
+            float: left;
+            margin: 0 2%;
+            border-radius: 10px;
+        }
+        #combo2:hover{
+            box-shadow: 3px 5px wheat;
+            transform: translateY(10px);
+        }
+        #combo3{
+            width: 20%;
+            height: 400px;
+            background-color: whitesmoke;
+            float: left;
+            margin: 0 2%;
+            border-radius: 10px;
+        }
+        #combo3:hover{
+            box-shadow: 3px 5px wheat;
+            transform: translateY(10px);
+        }
+        #combo4{
+            width: 20%;
+            height: 400px;
+            background-color: whitesmoke;
+            float: left;
+            margin: 0 2%;
+            border-radius: 10px;
+        }
+        #combo4:hover{
+            box-shadow: 3px 5px wheat;
+            transform: translateY(10px);
+        }
+    }
+    .footer__diachi{
+        float: left;
+        width: 100%;
+        height:300px;
+        margin-top: 20px;
+        
+        .footer__diachi__time{
+            width:400px;
+            height:200px;
+            float:left;
+           
+        }
+        .footer__diachi__numer{
+            width:400px;
+            height:200px;
+            float:right;
+          
+            h3,p,small{
+                display: block;
+                text-align: end;
+            }
+        }
+        .footer__diachi__diadiem{
+            width:400px;
+            height:200px;
+            // float:left;
+            margin: auto;
+            th{
+                padding: 10px;
+            }
+        }
+    }
+}

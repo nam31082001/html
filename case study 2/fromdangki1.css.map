@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,KAAK;EACZ,MAAM,EAAC,SAAS;CACnB;;AACD,AAAA,SAAS,CAAA;EACT,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,KAAK;EACZ,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,IAAI;CACV",
+    "sources": [
+        "fromdangki1.scss"
+    ],
+    "names": [],
+    "file": "fromdangki1.css"
+}

@@ -1,0 +1,22 @@
+h2,
+p,
+button,
+h5,
+input {
+  margin: 0 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media all and (max-width: 375px) {
+  h2,
+  p,
+  button,
+  h5,
+  input {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=fromdangki2.css.map */

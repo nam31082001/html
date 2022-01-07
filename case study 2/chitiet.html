@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPA-LÀO CAI</title>
+    <link rel="stylesheet" href="./chitiet.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/f84cd3a335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+   ">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__img">
+            <img src="https://s3.amazonaws.com/lg-vectors/bitmaps/644767/767446.png?logo_version=0" alt="">
+            <p>Đi khắp đất nước</p>
+        </div>
+        <div class="header__menu">
+            <ul>
+                <li id="menu"><a href="./weddulicj.html">Trang chủ</a></li>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Vùng Miền
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Miền Bắc</a></li>
+                        <li><a class="dropdown-item" href="#">Miền Nam </a></li>
+                        <li><a class="dropdown-item" href="#">Miền Trung</a></li>
+                        <li><a class="dropdown-item" href="#">Xem Tất Cả</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Theo mùa
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Mùa Đông</a></li>
+                        <li><a class="dropdown-item" href="#">Mùa Hè</a></li>
+                        <li><a class="dropdown-item" href="#">Mùa xuân</a></li>
+                        <li><a class="dropdown-item" href="#">Xem Tất Cả</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Tour
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">2 đến 3 ngày</a></li>
+                        <li><a class="dropdown-item" href="#">3 đến 1 tuần</a></li>
+                        <li><a class="dropdown-item" href="#">Trên 1 tuần</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Phương thức di chuyển
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Xe oto</a></li>
+                        <li><a class="dropdown-item" href="#">Máy bay</a></li>
+                        <li><a class="dropdown-item" href="#">xe BUS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Liên hệ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">ZaLo</a></li>
+                        <li><a class="dropdown-item" href="#">Facbook</a></li>
+                        <li><a class="dropdown-item" href="#">Hotline</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header__button">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div class="header__login">
+            <ul>
+                <li class="nav-item dropdown" id="menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Thông tin</a></li>
+                        <li><a class="dropdown-item" href="#">Gói đã mua</a></li>
+                        <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="section__header">
+            <h1>COMBO DU LỊCH SAPA-LÀO CAI 2N3D <div class="btn-group dropstart" style="margin-left: 50px;">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Thông tin cần thiết
+                    </button>
+                    <ul class="dropdown-menu">
+                        <div id="navbar-example2" class="navbar navbar-light bg-light px-3">
+
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading1">Thông tin cơ bản</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading2">Phương tiện</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading3">Dịch vụ bao gồm và không bao gồm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading4">Ghi chú</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </h1>
+            <p> Đánh giá:<i class="fas fa-star " style="color: yellow;"></i>
+                <i class="fas fa-star " style="color: yellow;"></i>
+                <i class="fas fa-star " style="color: yellow;"></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+            </p>
+            <div class="img">
+                <img src="./ảng/sapa-lao-cai-61013.jpg" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+
+                <h4 id="scrollspyHeading1">
+                    <h2>
+                        <i class="fas fa-info-circle " style="margin: 1%;"></i>Thông Tin Cơ Bản
+                    </h2>
+                </h4>
+                <hr>
+                <table>
+                    <tr>
+                        <th>+Hành Trình</th>
+                        <th>
+                            SaPa-Lào Cai
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>+Lịch Trình</th>
+                        <th> Ngày Đầu đến Sapa ngày 2 đi Lào Cai</th>
+                    </tr>
+                    <tr>
+                        <th>+Di chuyển</th>
+                        <th> Đi oto, máy bay khứ hồi</th>
+                    </tr>
+                    <tr>
+                        <th>+Ngày đi</th>
+                        <th>20/11, 20/12 20/1/2022</th>
+                    </tr>
+                </table>
+                <p>Du lịch Mùa Đông ở sapa với nhiều địa điểm tham quan, vui chơi mang đậm bản sắc văn hóa dân tộc,
+                    thiên nhiên hùng vĩ, thơ mộng. Tất cả khung cảnh nơi núi rừng này dường như đều được thiên nhiên
+                    “sắp
+                    đặt” một cách rất tài tình, sẵn sàng làm xao xuyến tâm hồn của bất cứ ai đặt chân đến dây. Bạn đã dự
+                    định sẽ du lịch Tây Bắc một lần để tự mình cảm nhận những nét đẹp của nơi đây xem có đúng như lời
+                    quảng
+                    bá hay không? Hãy nhanh tay đặt tour du lịch và cảm nhận nhé!</p>
+                <h4 id="scrollspyHeading2">
+                    <h2><i class="fas fa-bicycle"></i>
+                        Phương Tiện
+                    </h2>
+                </h4>
+                <hr>
+                <ul>
+                    <li>Oto hoặc máy bay:đùng để đi đến khách sạn</li>
+                    <li>Du khách được cấp xe máy ( hoặc xe đạp ) cho việc đi lại tại địa điểm du lịch</li>
+                </ul>
+                <h2><i class="fas fa-map"></i>Hành trình</h2>
+                <hr>
+                <h4>NGÀY 1 | Đến sapa (Ăn trưa, chiều)</h4>
+                <h5>Sáng: Quý khách có mặt tại nhà nghỉ ít nhất hai tiếng</h5>
+                <ul>
+                    <li>Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý khách làm thủ tục nhận phòng.</li>
+                    <li>Cả đoàn ăn trưa</li>
+                    <li>Nghỉ Trưa</li>
+                </ul>
+                <h5>Chiều:Bắt Đầu Khám Phá</h5>
+                <ul>
+                    <li> 2 giờ: Đến Bản Tả Phìn Tham quan và checkin</li>
+                    <li>4 giờ :Đến Cổng Trời SaPa Tham quan và checkin mua sắm </li>
+                    <li>6 giờ : Đến Hà Khẩu Sapa tham quan tự do và 8h có mặt tại nhà nghỉ ăn tối</li>
+                </ul>
+                <h5>Tối: ăn tối xg có chương trình vui chơi cùng người bản dịa</h5>
+                <h4>NGÀY 2 | đi chuyển đến phía Nam (Ăn trưa, chiều)</h4>
+                <h5>Sáng: Quý khách có mặt tại nhà nghỉ ít nhất hai tiếng</h5>
+                <ul>
+                    <li>Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý khách làm thủ tục nhận phòng.</li>
+                    <li>Cả đoàn ăn trưa</li>
+                    <li>Nghỉ Trưa</li>
+                </ul>
+                <h5>Chiều:Bắt Đầu Khám Phá</h5>
+                <ul>
+                    <li> 2 giờ: Đến Bản Tả Phìn Tham quan và checkin</li>
+                    <li>4 giờ :Đến Cổng Trời SaPa Tham quan và checkin mua sắm </li>
+                    <li>6 giờ : Đến Hà Khẩu Sapa tham quan tự do và 8h có mặt tại nhà nghỉ ăn tối</li>
+                </ul>
+                <h5>Tối: ăn tối xg có chương trình vui chơi cùng người bản dịa</h5>
+                <h4 id="scrollspyHeading3">
+                    <h2> <i class="fas fa-pencil-alt"></i>Dịch vụ bao gồm và không bao gồm</h2>
+                </h4>
+                <hr>
+                <h5>Giá tour bao gồm:</h5>
+                <ul>
+                    <li>Vé máy bay khứ hồi TP.HCM – HÀ NỘI – TP.HCM .( khách tự đến địa điểm vé máy bay được gửi cho
+                        khách
+                        trước 3 ngày)</li>
+                    <li> Xe tham quan (xe 16 chỗ, 29 chỗ, 35 chỗ, 45 chỗ) tùy theo số lượng khách thực tế trên chuyến
+                        đi.
+                    </li>
+                    <li>Nghỉ đêm tại Sapa: khách sạn tiêu chuẩn tương đương 3 sao, 4 sao đầy đủ
+                        tiện nghi. Phòng 2 (2 khách người lớn/ phòng), nếu lẻ người thứ 3, đóng phụ phí phòng đơn hoặc
+                        ngủ
+                        ghép phòng 3 khách. </li>
+                    <li>
+                        Ăn uống theo Đoàn:
+                        <ul>
+                            <li>Ăn phụ: 2 bữa sáng.</li>
+                            <li>Ăn chính: 6 bữa chính.</li>
+                            <li>Có thể tách đoàn khi ăn</li>
+                        </ul>
+                    </li>
+                    <li>Vé tham quan đã bao gồm giá combo</li>
+                    <li> Bảo hiểm với mức bồi thường tối đa 100.000.000 đồng/trường hợp.</li>
+                </ul>
+                <h5>Không bao gồm:</h5>
+                <ul>
+                    <li>Bia không có trong các bữa ăn.</li>
+                    <li> Chi phí cá nhân cômg ty không có trong hợp đồng</li>
+                </ul>
+                <h4 id="scrollspyHeading4">
+                    <h2> <i class="far fa-sticky-note"></i>Ghi chú</h2>
+                </h4>
+                <hr>
+                <h5>Gía vé trẻ em</h5>
+                <ul>
+                    <li> Trẻ em dưới 02 tuổi: miễn phí giá tour, giá vé máy bay theo quy định hãng hàng không. Cha, Mẹ
+                        hoặc
+                        người thân đi kèm tự lo các chi phí ăn, ngủ, tham quan (nếu có) cho bé. </li>
+                    <li>Trẻ em từ 02 - dưới 11 tuổi: 100% giá vé máy bay; miễn giá tour. Cha, Mẹ hoặc người thân đi kèm
+                        tự
+                        lo các chi phí ăn, ngủ, tham quan (nếu có) cho bé. Hai người lớn chỉ kèm 1 trẻ em dưới 5 tuổi,
+                        trẻ
+                        em thứ 2 trở lên phải mua ½ vé tour.</li>
+                    <li>Từ 11 tuổi trở lên: 100% giá tour và tiêu chuẩn như người lớn.</li>
+                </ul>
+                <h5>Thanh Toán</h5>
+                <ul>
+                    <li>Sau khi đăng ký, thanh toán ít nhất 50% tiền cọc và đóng hết 100% trước khởi hành 10 ngày.</li>
+                    <li>Trong những trường hợp bất khả kháng như: khủng bố, bạo động, thiên tai, lũ lụt… Tuỳ theo tình
+                        hình
+                        thực tế và sự thuận tiện, an toàn của khách hàng, công ty Du Lịch sẽ chủ động thông báo cho
+                        khách
+                        hàng sự thay đổi như sau: huỷ hoặc thay thế bằng một chương trình mới với chi phí tương đương
+                        chương
+                        trình tham quan trước đó. Trong trường hợp chương trình mới có phát sinh thì Khách hàng sẽ thanh
+                        toán khoản phát sinh này. Tuy nhiên, mỗi bên có trách nhiệm cố gắng tối đa, giúp đỡ bên bị thiệt
+                        hại
+                        nhằm giảm thiểu các tổn thất gây ra vì lý do bất khả kháng.…</li>
+                </ul>
+                <h5>Điều Kiện tham gia toue trong Mùa Covit</h5>
+                <ul>
+                    <li>Tiêm đủ 2 mũi</li>
+                    <li>trong 14 ngày gần nhất không bị là F1 F2 F3,... và không bị F0</li>
+                </ul>
+                <h5>CHÚ Ý</h5>
+                <UL>
+                    <li>sapa mùa này lạnh có thể hôm tham quan thời tiết xuống độ âm nên khách phải chuẩn bị đồ ấm</li>
+                    <li>không mang quá nhiều nhiều đồ vì đồ đã bao gồm trong giá toue</li>
+                    <li>Nếu mất đồ khách tự chịu trách nhiệm</li>
+                    <li>nếu tách đoàn mọi chi phí bảo hiểm hoặc chi phí khác khong dc thanh toán và có sảy ra vấn đề j
+                        công
+                        ty không chịu trách nhiệm</li>
+                </UL>
+            </div>
+            <h3>Bình Luận</h3>
+            <h2 style="text-align: center;">CẢM ƠN QUÝ KHÁCH ĐÃ SỬ DỤNG DỊCH VỤ</h2>
+        </div>
+
+    </section>
+    <aside>
+        <div class=" aside__header">
+            <h2 style="color: red;"> SAPA-LÀO CAI 2N3D</h2>
+            <br>
+            <table>
+                <tr>
+                    <th> Mã toue:</th>
+                    <th>ABCFE</th>
+                </tr>
+                <br>
+                <tr>
+                    <th> Ngày đi</th>
+                    <th>1,4,7/10</th>
+                </tr>
+                <tr>
+                    <th>Thời Gian</th>
+                    <th> 2 ngày 3 đêm</th>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <p> Giá:
+            <h2>490.000 đồng</h2>
+            </p>
+            <div style="margin-left: 50px;">
+                <a style="display: block;text-align: center;" href=""><button type="button" class="btn btn-outline-info"
+                        style="background-color: brown;color: wheat;"><a style="color:wheat;"
+                            href="./fromdangky1.html">Đăng
+                            Kí</a></button></a>
+            </div>
+
+        </div>
+
+
+    </aside>
+    <footer>
+        <h3>Combo Liên Quan <a style="display: block;text-align: end;" href=""> <button>Xem Tất Cả>>></button></a></h3>
+
+        <div class="footer__lienquan">
+
+            <div id="combo1">
+                <img src="./ảng/mauson.jpg" alt="">
+                <h3>Giá:</h3>
+                <h2>6.990.000 đồng</h2>
+                <select name="" id="">
+                    <option value="">chọn ngày</option>
+                    <option value="">1/1</option>
+                    <option value="">5/1</option>
+                    <option value="">10/1</option>
+                </select><br>
+                <button>Đăng kí ngay</button> <button>xem chi tiết >>> </button>
+                <h3>Mẫu sơn -LẠNG SƠN</h3>
+            </div>
+            <div id="combo2">
+                <img src="./ảng/tam dao.jpg" alt="">
+                <h3>Giá:</h3>
+                <h2>4.990.000 đồng</h2>
+                <select name="" id="">
+                    <option value="">chọn ngày</option>
+                    <option value="">1/1</option>
+                    <option value="">5/1</option>
+                    <option value="">10/1</option>
+                </select><br>
+                <button>Đăng kí ngay</button> <button>xem chi tiết >>> </button>
+                <h3>Tam Đảo Vĩnh Phúc</h3>
+            </div>
+            <div id="combo3">
+                <img src="./ảng/ha-giang-397396.jpg" alt="">
+                <h3>Giá:</h3>
+                <h2>20.990.000 đồng</h2>
+                <select name="" id="">
+                    <option value="">chọn ngày</option>
+                    <option value="">1/1</option>
+                    <option value="">5/1</option>
+                    <option value="">10/1</option>
+                </select><br>
+                <button>Đăng kí ngay</button> <button>xem chi tiết >>> </button>
+                <h3>Hà Giang</h3>
+            </div>
+            <div id="combo4">
+                <img src="./ảng/da-nang-397411.jpg" alt="">
+                <h3>Giá:</h3>
+                <h2>7.990.000 đồng</h2>
+                <select name="" id="">
+                    <option value="">chọn ngày</option>
+                    <option value="">1/1</option>
+                    <option value="">5/1</option>
+                    <option value="">10/1</option>
+                </select><br>
+                <button>Đăng kí ngay</button> <button>xem chi tiết >>> </button>
+                <h3>Đà Nẵng</h3>
+            </div>
+
+        </div>
+        <div class="footer__diachi">
+            <div class="footer__diachi__time">
+                <h3>Opening House</h3>
+                <p>Monday to Friday - 9am to 9pm </p>
+                <p>Satuday to Sunday - 9am to 11pm </p>
+            </div>
+            <div class="footer__diachi__numer">
+                <h3>NIỀM VUI DU LỊCH</h3>
+                <p># 30 abc Hà Nội Việt Nam</p>
+                <small>xxxx@gmail.com</small>
+                <p>+07652385</p>
+            </div>
+            <div class="footer__diachi__diadiem">
+                <h2 style="display: inline;
+                          margin-top: 20px;">Thành Phồ Du Lịch</h2>
+                <table>
+                    <tr>
+                        <th>Hà Nội</th>
+                        <th>Hải Phòng</th>
+                        <th>Hạ Long</th>
+                    </tr>
+                    <tr>
+                        <th>Huế</th>
+                        <th>Quảng Bình</th>
+                        <th>Đà Nẵng</th>
+                    </tr>
+                    <tr>
+                        <th>Quảng Nam</th>
+                        <th>Nha Trang</th>
+                        <th>Đà Lạt</th>
+
+                    </tr>
+                    <tr>
+                        <th>Phan Thiết</th>
+                        <th>Bà Rịa - Vũng Tàu</th>
+                        <th>Cần Thơ</th>
+                    </tr>
+
+                </table>
+            </div>
+            <H1>XIN CẢM ƠN ĐÃ SỬ ĐỤNG</H1>
+        </div>
+    </footer>
+</body>
+
+</html>

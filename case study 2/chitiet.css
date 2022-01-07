@@ -1,0 +1,247 @@
+.header {
+  width: 100%;
+  height: 100px;
+  border: 2px solid white;
+  background-color: aqua;
+}
+
+.header .header__img {
+  width: 15%;
+  height: 100px;
+  float: left;
+  color: palevioletred;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header .header__img img {
+  width: 100px;
+}
+
+.header .header__menu {
+  width: 55%;
+  height: 100px;
+  float: left;
+}
+
+.header .header__menu ul {
+  padding: 0;
+  list-style: none;
+}
+
+.header .header__menu ul li {
+  float: left;
+  margin: 20px 10px;
+  font-size: 20px;
+}
+
+.header .header__menu ul li a {
+  color: black;
+}
+
+.header .header__button {
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+
+.header .header__button form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__login {
+  float: left;
+  width: 5%;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header .header__login ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section {
+  margin-top: 100px;
+  width: 60%;
+  margin-left: 10%;
+  float: left;
+}
+
+section .img {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  float: right;
+}
+
+section .img img {
+  width: 820.35px;
+  height: 500px;
+}
+
+section .section {
+  width: 100%;
+  float: left;
+}
+
+section .section table {
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+section .section table th {
+  padding: 0 20px;
+}
+
+aside {
+  width: 25%;
+  height: 1000px;
+  float: left;
+  margin-top: 200px;
+}
+
+aside .aside__header {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+}
+
+aside .aside__header table {
+  width: 80%;
+  height: 150px;
+  margin: auto;
+}
+
+aside .aside__header table th {
+  padding: 5px 10px;
+}
+
+aside .section {
+  width: 80%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+aside .section button {
+  width: 70%;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+
+footer .footer__lienquan {
+  width: 100%;
+  height: 400px;
+}
+
+footer .footer__lienquan img {
+  width: 303.84px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+footer .footer__lienquan #combo1 {
+  width: 20%;
+  height: 400px;
+  background-color: whitesmoke;
+  float: left;
+  margin: 0 2%;
+  border-radius: 10px;
+}
+
+footer .footer__lienquan #combo1:hover {
+  -webkit-box-shadow: 3px 5px wheat;
+          box-shadow: 3px 5px wheat;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+footer .footer__lienquan #combo2 {
+  width: 20%;
+  height: 400px;
+  background-color: whitesmoke;
+  float: left;
+  margin: 0 2%;
+  border-radius: 10px;
+}
+
+footer .footer__lienquan #combo2:hover {
+  -webkit-box-shadow: 3px 5px wheat;
+          box-shadow: 3px 5px wheat;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+footer .footer__lienquan #combo3 {
+  width: 20%;
+  height: 400px;
+  background-color: whitesmoke;
+  float: left;
+  margin: 0 2%;
+  border-radius: 10px;
+}
+
+footer .footer__lienquan #combo3:hover {
+  -webkit-box-shadow: 3px 5px wheat;
+          box-shadow: 3px 5px wheat;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+footer .footer__lienquan #combo4 {
+  width: 20%;
+  height: 400px;
+  background-color: whitesmoke;
+  float: left;
+  margin: 0 2%;
+  border-radius: 10px;
+}
+
+footer .footer__lienquan #combo4:hover {
+  -webkit-box-shadow: 3px 5px wheat;
+          box-shadow: 3px 5px wheat;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+footer .footer__diachi {
+  float: left;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+footer .footer__diachi .footer__diachi__time {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+footer .footer__diachi .footer__diachi__numer {
+  width: 400px;
+  height: 200px;
+  float: right;
+}
+
+footer .footer__diachi .footer__diachi__numer h3, footer .footer__diachi .footer__diachi__numer p, footer .footer__diachi .footer__diachi__numer small {
+  display: block;
+  text-align: end;
+}
+
+footer .footer__diachi .footer__diachi__diadiem {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+footer .footer__diachi .footer__diachi__diadiem th {
+  padding: 10px;
+}
+/*# sourceMappingURL=chitiet.css.map */

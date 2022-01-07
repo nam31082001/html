@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,gCAAgC;CAC/C",
+    "sources": [
+        "fromdangki.scss"
+    ],
+    "names": [],
+    "file": "fromdangki.css"
+}

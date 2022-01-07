@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOUR theo mùa</title>
+  <link rel="stylesheet" href="./tomghop.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="https://kit.fontawesome.com/f84cd3a335.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+       ">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__img">
+      <img class="img-fluid" src="https://s3.amazonaws.com/lg-vectors/bitmaps/644767/767446.png?logo_version=0" alt="">
+      <p>Đi khắp đất nước</p>
+    </div>
+    <div class="header__menu">
+      <ul>
+        <li id="menu"><a href="./weddulicj.html">Trang chủ</a></li>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Vùng Miền
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Miền Bắc</a></li>
+            <li><a class="dropdown-item" href="#">Miền Nam </a></li>
+            <li><a class="dropdown-item" href="#">Miền Trung</a></li>
+            <li><a class="dropdown-item" href="#">Xem Tất Cả</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Theo mùa
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Mùa Đông</a></li>
+            <li><a class="dropdown-item" href="#">Mùa Hè</a></li>
+            <li><a class="dropdown-item" href="#">Mùa xuân</a></li>
+            <li><a class="dropdown-item" href="#">Xem Tất Cả</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Tour
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">2 đến 3 ngày</a></li>
+            <li><a class="dropdown-item" href="#">3 đến 1 tuần</a></li>
+            <li><a class="dropdown-item" href="#">Trên 1 tuần</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Phương thức di chuyển
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Xe oto</a></li>
+            <li><a class="dropdown-item" href="#">Máy bay</a></li>
+            <li><a class="dropdown-item" href="#">xe BUS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Liên hệ
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">ZaLo</a></li>
+            <li><a class="dropdown-item" href="#">Facbook</a></li>
+            <li><a class="dropdown-item" href="#">Hotline</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="header__button">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <div class="header__login">
+      <ul>
+        <li class="nav-item dropdown" id="menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-user-circle fa-4x"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Thông tin</a></li>
+            <li><a class="dropdown-item" href="#">Gói đã mua</a></li>
+            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <nav>
+    <div class="slider-container">
+      <div class="menu">
+        <label for="slide-dot-1"></label>
+        <label for="slide-dot-2"></label>
+        <label for="slide-dot-3"></label>
+      </div>
+      
+      <input id="slide-dot-1" type="radio" name="slides" checked>
+        <div class="slide slide-1"></div>
+      
+      <input id="slide-dot-2" type="radio" name="slides">
+        <div class="slide slide-2"></div>
+      
+      <input id="slide-dot-3" type="radio" name="slides">
+        <div class="slide slide-3"></div>
+    </div>
+  </nav>
+  <section>
+    <h1>TOUR theo mùa</h1>
+    <a href="./chitiet.html">
+      <div class="card">
+        <img id="phongto" src="./ảng/sapa-lao-cai-61013.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Sapa_ Lào Cai</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="./chitiet.html" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="./fromdangky1.html" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+    </a>
+    </div>
+    <a href="">
+      <div class="card">
+        <img id="phongto"  src="./ảng/dakajt.jpeg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Đà Lạt</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img  id="phongto" src="./ảng/tam dao.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Tam Đảo</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img id="phongto"  src="./ảng/vinh-ha-long-quang-ninh-16081.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Vịnh Hạ Long</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img id="phongto"  src="./ảng/vinh-lan-ha.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Vịnh Lan Hạ</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img id="phongto"  src="./ảng/dao-binh-ba-vntrip-e1513666995887.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Đảo Binh Ba</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img  id="phongto" src="./ảng/dinh-fansipan.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Dỉnh Phansipan</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img  id="phongto" src="./ảng/doc-let-vntrip-e1513667305318.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Đốc Lét</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img id="phongto" src="./ảng/ha-giang-397396.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Hà Giang</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img id="phongto" src="./ảng/Thap-Ba-Ponagar-Nha-Trang-vntrip.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Tháp Ba Ponagar</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img  id="phongto" src="./ảng/mauson.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Mẫu Sơn</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="card">
+        <img  id="phongto" src="./ảng/ninh-binh.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="giamgia">
+            <p style="display: inline;">Giảm:
+            <h3 id="mau" style="display: inline;">12%</h3>
+            </p>
+          </div>
+          <h5 class="card-title">Ninh Bình</h5>
+          <p class="card-text">2 Ngày 3 Đêm</p>
+          <p class="card-text"> Giá: <del>4.990.000 đồng</del>
+          <h2 id="mau">2.290.000 đồng</h2>
+          </p>
+          <a href="#" class="btn btn-primary">Xem Chi Tiết>></a>
+          <a href="#" class="btn btn-primary">Đăng kí</a>
+          <a href="#" class="btn btn-primary">So Sánh</a>
+        </div>
+      </div>
+    </a>
+
+  </section>
+  <footer aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">
+          <<< </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">>></a></li>
+    </ul>
+    <div class="footer__diachi">
+      <div class="footer__diachi__time">
+        <h3>Opening House</h3>
+        <p>Monday to Friday - 9am to 9pm </p>
+        <p>Satuday to Sunday - 9am to 11pm </p>
+      </div>
+      <div class="footer__diachi__numer">
+        <h3>NIỀM VUI DU LỊCH</h3>
+        <p># 30 abc Hà Nội Việt Nam</p>
+        <small>xxxx@gmail.com</small>
+        <p>+07652385</p>
+      </div>
+      <div class="footer__diachi__diadiem">
+        <h2 style="display: inline;
+                    margin-top: 20px;">Thành Phố Du Lịch</h2>
+        <table>
+          <tr>
+            <th>Hà Nội</th>
+            <th>Hải Phòng</th>
+            <th>Hạ Long</th>
+          </tr>
+          <tr>
+            <th>Huế</th>
+            <th>Quảng Bình</th>
+            <th>Đà Nẵng</th>
+          </tr>
+          <tr>
+            <th>Quảng Nam</th>
+            <th>Nha Trang</th>
+            <th>Đà Lạt</th>
+
+          </tr>
+          <tr>
+            <th>Phan Thiết</th>
+            <th>Bà Rịa - Vũng Tàu</th>
+            <th>Cần Thơ</th>
+          </tr>
+
+        </table>
+      </div>
+      <H1>XIN CẢM ƠN ĐÃ SỬ ĐỤNG</H1>
+    </div>
+  </footer>
+</body>
+
+</html>
