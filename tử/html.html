@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		.nam{
+            position: absolute;
+			top: 35%;
+			left: 40%;
+			transform: translate(-505, -50%);
+            width: 100px;
+			height: 100px;
+			background: #33ff00;
+            border: 2px solid #33ff00;
+			border-radius: 50%;
+            box-sizing: border-box;
+            box-shadow: 0 0 0 36px #5d08e7,
+					0 0 0 40px #4ec910;
+        }
+        .nam:after {
+			content: '';
+			position: absolute;
+			left: -30px;
+			top: -30px;
+			right: -30px;
+			bottom: -30px;
+			border: 2px solid #0f110e;
+			border-radius: 50%;
+			animation: animate 2s linear infinite;
+            animation-delay: 0.1s;
+		}
+        .nam::before {
+			content: '';
+			position: absolute;
+			left: -50px;
+			top: -50px;
+			right: -50px;
+			bottom: -50px;
+			border: 2px solid #eef0ed;
+			border-radius: 50%;
+			animation: animate 2s linear infinite;
+            animation-delay: 0.1s;
+		}
+        @keyframes animate {
+			0% {
+				transform: scale(2.0);
+			}
+
+			100% {
+				transform: scale(0.7);
+			}
+		}
+
+	</style>
+</head>
+<body>
+    <div class="nam"></div>
+</body>
+</html>

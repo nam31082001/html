@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            background: #001f25;
+        }
+
+        .stairs {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            transform-style: preserve-3d;
+            transform: rotateX(-30deg) rotateY(240deg) rotateZ(150deg);
+            animation: nam 10s linear infinite;
+        }
+
+        @keyframes nam {
+            0% {
+                /* filter: hue-rotate(0deg); */
+                transform: rotateX(-30deg) rotateY(0deg) rotateZ(150deg);
+            }
+
+            100% {
+                /* filter: hue-rotate(360deg); */
+                transform: rotateX(-30deg) rotateY(360deg) rotateZ(150deg);
+            }
+        }
+
+        .stairs .step {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(169, 213, 9);
+            transform: rotateX(90deg) translateZ(-150px);
+            transform-style: preserve-3d;
+        }
+
+        .stairs .step::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(226, 202, 21);
+
+
+            transform: rotateX(90deg) translate3d(0, 150px, 150px);
+
+        }
+
+        .stairs .step::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(236, 11, 11);
+            transform: rotateX(90deg) translate3d(0, 150px, -150px);
+
+        }
+        .stairs .step1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(32, 181, 29);
+            transform: rotateX(90deg) translateZ(150px);
+            transform-style: preserve-3d;
+        }
+        .stairs .step1::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(10, 203, 174);
+            transform: rotateY(90deg) translate3d(150px, 0, 150px);
+
+        }
+        .stairs:hover .step1::after {
+            transform-origin: 300px;
+        }
+
+
+        .stairs .step1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: rgb(13, 56, 209);
+            transform: rotateY(90deg) translate3d(150px, 0, -150px);
+        }
+        .stairs:hover .step1::before {
+            transform-origin: -100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stairs">
+        <div class="step">
+        </div>
+        <div class="step1">
+        </div>
+    </div>
+</body>
+
+</html>

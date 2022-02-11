@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            background: #001f25;
+        }
+
+        .loader {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+
+        .loader span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotate(calc(36deg * var(--i)));
+        }
+
+        .loader span::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25px;
+            height: 55px;
+            background: transparent;
+            /* border-radius: 60%; */
+            border: 4px solid #00efff;
+            box-shadow: 0 0 20px #00efff,
+                -30px -30px 0px #00efff,
+                -30px -30px 20px #00efff,
+                30px 30px 0px #00efff,
+                30px 30px 20px #00efff,
+                30px -30px 0px #00efff,
+                30px -30px 20px #00efff,
+                -30px 30px 0px #00efff,
+                -30px 30px 20px #00efff;
+            animation: nam 5s linear infinite;
+            transform-origin: 0px;
+            transition: 0.2s;
+
+        }
+
+        .loader span::after {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 100px;
+            width: 5px;
+            height: 100px;
+            background: transparent;
+            /* border-radius: 60%; */
+            border: 4px solid #edf1f1;
+            box-shadow: 0 0 20px #f2f6f7,
+                -30px -30px 0px #eceff0,
+                -30px -30px 20px #e0edee,
+                30px 30px 0px #e0e7e7,
+                30px 30px 20px #e3e9e9,
+                30px -30px 0px #e9eeee,
+                30px -30px 20px #e9e9e9,
+                -30px 30px 0px #e1eaeb,
+                -30px 30px 20px #eff1f1;
+            animation: nam1 5s linear infinite;
+            transform-origin: 0px;
+            transition: 0.2s;
+
+        }
+
+        .loader:hover span::before {
+            transform-origin: 180px;
+            ;
+        }
+
+        @keyframes nam {
+            0% {
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(360deg);
+                filter: hue-rotate(360deg);
+            }
+
+            70% {
+                transform: rotate(-360deg);
+                filter: hue-rotate(-360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+        }
+
+        @keyframes nam1 {
+            0% {
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(360deg);
+                filter: hue-rotate(360deg);
+            }
+
+            70% {
+                transform: rotate(-360deg);
+                filter: hue-rotate(-360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+        }
+
+        .loader:hover span::after {
+            transform-origin: 250px;
+            ;
+        }
+        .cham{
+            position: absolute;
+            top:0;
+            left:0;
+            width:20px;
+            height:10px;
+            background:transparent;
+            border:4px solid #fff;
+            /* border-radius: 50%; */
+            box-shadow: 0 0 10px red,
+            -20px -30px 0 red,
+            20px 30px 0 red,
+            20px 30px 0 red,
+            20px -30px 0 red,
+            20px -30px 0 red,
+            -20px 30px 0 red,
+            -20px 30px 0 red,
+            -40px 0 0 red,
+            40px 0 0 red;
+            animation: nam2 5s linear infinite;
+        }
+        @keyframes nam2{
+            0%{
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+            100%{
+                transform: rotate(3600deg);
+                filter: hue-rotate(3600deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: red;width:25px;
+    height:25px;border-radius:50%;position: relative;left:165px;" class="cham"  ></div>
+    <div class="loader">
+        <span style="--i:1;">nam</span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+        <span style="--i:4;"></span>
+        <span style="--i:5;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:7;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:9;"></span>
+        <span style="--i:10;"></span>
+    </div>
+</body>
+
+</html>
