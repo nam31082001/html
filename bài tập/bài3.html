@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            Nhập vô số a: <input type="text" id="number1" value="0">
+            Nhập vô số b: <input type="text" id="number2" value="0"><br>
+            <input type="button" onclick="tich()" value="Kết quả">
+            <h1 id="hienthi">Kết Quả:</h1>
+        </form>
+        <script>
+            function tich(){
+                let a=Number(document.getElementById("number1").value);
+                let b=Number(document.getElementById("number2").value);
+                let c=a*b;
+                document.getElementById("hienthi").innerHTML=c;
+            }
+        </script>
+    </body>
+    </html>
+</body>
+</html>

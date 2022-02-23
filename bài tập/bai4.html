@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        Nhập vô số a: <input type="text" id="number1" value="0">
+        Nhập vô số b: <input type="text" id="number2" value="0"><br>
+        <input type="button" onclick="tich1()" value="Diện Tích">
+        <input type="button" onclick="tich2()" value="Mũ">
+        <input type="button" onclick="tich3()" value="Tổng">
+        <input type="button" onclick="tich4()" value="THế KỈ">
+        <h1 id="hienthi">Kết Quả:</h1>
+        <h1 id="hienthi1">Kết Quả:</h1>
+    </form>
+    <script>
+        function tich1() {
+            let a = Number(document.getElementById("number1").value);
+            let b = Number(document.getElementById("number2").value);
+            let c = a * a;
+            let d = 4 * a;
+            document.getElementById("hienthi").innerHTML = c;
+            document.getElementById("hienthi1").innerHTML = d;
+        }
+        function tich2() {
+            let a = Number(document.getElementById("number1").value);
+            let b = Number(document.getElementById("number2").value);
+            let c = a * a;
+            let d = a+b;
+            document.getElementById("hienthi").innerHTML = c;
+            document.getElementById("hienthi1").innerHTML = d;
+        }
+        function tich3() {
+            let a = Number(document.getElementById("number1").value);
+            let b = Number(document.getElementById("number2").value);
+            a = parseInt(a);
+           
+            let i = a;
+            for (i = a; i <= b; i++) {
+                html=i+1;
+           document.getElementById("hienthi").innerHTML = html;
+        }
+        function tich4() {
+            let a = Number(document.getElementById("number1").value);
+            let b = Number(document.getElementById("number2").value);
+           let f=a/100;
+           document.getElementById("hienthi").innerHTML = tong;
+        }
+
+    </script>
+</body>
+
+</html>
