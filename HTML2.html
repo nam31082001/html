@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="get" action="">
+        Nhập số: <input type="text" id="number" value="0" />
+        <input type="button" value="In kết quả" onclick="print_number()" />
+    </form>
+    <div id="result">
+
+    </div>
+    <script>
+        function print_number() {
+            let a = document.getElementById("number").value;
+            a = parseInt(a);
+            let html = '';
+            let i = 1;
+            for (i = 1; i <= a; i++) {
+                html = i+1 + '<br/>';
+            }
+            document.getElementById("result").innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>
