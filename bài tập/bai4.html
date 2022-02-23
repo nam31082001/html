@@ -28,31 +28,32 @@
             document.getElementById("hienthi").innerHTML = c;
             document.getElementById("hienthi1").innerHTML = d;
         }
+
         function tich2() {
             let a = Number(document.getElementById("number1").value);
             let b = Number(document.getElementById("number2").value);
             let c = a * a;
-            let d = a+b;
+            let d = a + b;
             document.getElementById("hienthi").innerHTML = c;
             document.getElementById("hienthi1").innerHTML = d;
         }
+
         function tich3() {
             let a = Number(document.getElementById("number1").value);
             let b = Number(document.getElementById("number2").value);
-            a = parseInt(a);
-           
             let i = a;
             for (i = a; i <= b; i++) {
-                html=i+1;
-           document.getElementById("hienthi").innerHTML = html;
+                html = i + 1;
+            };
+            document.getElementById("hienthi").innerHTML = html;
         }
+
         function tich4() {
             let a = Number(document.getElementById("number1").value);
             let b = Number(document.getElementById("number2").value);
-           let f=a/100;
-           document.getElementById("hienthi").innerHTML = tong;
+            let f = a / 100;
+            document.getElementById("hienthi").innerHTML = tong;
         }
-
     </script>
 </body>
 
