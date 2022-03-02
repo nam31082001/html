@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="nhapnam"><br>
+    <button id="bam" onclick="bam()">Kiểm Tra</button>
+    <script>
+        function bam() {
+            var nam = document.getElementById('nhapnam').value;
+            var isLeapYear = false;
+            if (nam % 4 == 0) {
+                isLeapYear = true;
+            } else {
+                isLeapYear = false;
+            }
+            if (nam % 100 == 0 && nam % 400 != 0) {
+                isLeapYear = true;
+            } else {
+                isLeapYear = false;
+            }
+            if (nam % 100 == 0 && nam % 400 == 0) {
+                isLeapYear = true;
+            } else {
+                isLeapYear = false;
+            }
+            if (isLeapYear) {
+                alert('nam nhuận')
+            } else {
+                alert('ko là nam nhuận')
+            }
+        }
+    </script>
+</body>
+
+</html>
