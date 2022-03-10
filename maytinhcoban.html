@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="soa">
+    <input type="text" id="sob"><br><br>
+    <button onclick="daucong()">+</button>
+    <button onclick="dautru()">-</button>
+    <button onclick="daunhan()">*</button>
+    <button onclick="dauchia()">/</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        function daucong() {
+            var a = +document.getElementById('soa').value;
+            var b = +document.getElementById('sob').value;
+            var cong = a + b;
+            document.getElementById('hienthi').innerHTML = 'Kết Quả:' + cong;
+        }
+
+        function dautru() {
+            var a = +document.getElementById('soa').value;
+            var b = +document.getElementById('sob').value;
+
+            var tru = a - b;
+            document.getElementById('hienthi').innerHTML = 'Kết Quả:' + tru;
+        }
+
+        function daunhan() {
+            var a = +document.getElementById('soa').value;
+            var b = +document.getElementById('sob').value;
+            var nhan = a * b;
+            document.getElementById('hienthi').innerHTML = 'Kết Quả:' + nhan;
+        }
+
+        function dauchia() {
+            var a = +document.getElementById('soa').value;
+            var b = +document.getElementById('sob').value;
+            var chia = a / b;
+            document.getElementById('hienthi').innerHTML = 'Kết Quả:' + chia;
+        }
+    </script>
+</body>
+
+</html>

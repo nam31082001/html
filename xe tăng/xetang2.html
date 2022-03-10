@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="width: 190px; height: 190px; border: 1px solid black;" id="battleFiled">
+        <div style="display:block;top: 0px; left: 0px;width: 19px; height: 19px; background-image: url('tank-1.png');background-size: 100% 100%;position: relative;"
+            id="tank">
+        </div>
+        <div style="top: 76px; left: 133px;width: 19px; height: 19px; background-image: url('boom.png');background-size: 100% 100%;position: relative;"
+            id="bom">
+
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="len()">⬆</button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="trai()">⬅</button></td>
+            <td></td>
+            <td>
+                <button onclick="phai()">➡</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="xuong()">⬇</button></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        function len() {
+
+            var topxe = document.getElementById('tank').style.top;
+            var a = parseInt(topxe);
+            var leftxe = document.getElementById('tank').style.left;
+            var b = parseInt(leftxe);
+            var topbom = document.getElementById('bom').style.top;
+            var c = parseInt(topbom);
+            var leftbom = document.getElementById('bom').style.left;
+            var d = parseInt(leftbom);
+            a -= 19;
+            if (a >= 0) {
+
+
+                if ((a - 19) == (c) && b == d) {
+                    document.getElementById('tank').style.backgroundImage = "url('./explosion.png')";
+                    document.getElementById('bom').style.display = 'none';
+                }
+                document.getElementById('tank').style.top = a + "px";
+
+            }
+        }
+
+        function xuong() {
+
+            var topxe = document.getElementById('tank').style.top;
+            var a = parseInt(topxe);
+            var leftxe = document.getElementById('tank').style.left;
+            var b = parseInt(leftxe);
+            var topbom = document.getElementById('bom').style.top;
+            var c = parseInt(topbom);
+            var leftbom = document.getElementById('bom').style.left;
+            var d = parseInt(leftbom);
+            a += 19;
+            if (a <= 171) {
+
+                if (a == (c + 19) && b == d) {
+                    document.getElementById('tank').style.backgroundImage = "url('./explosion.png')";
+                    document.getElementById('bom').style.display = 'none';
+                }
+                document.getElementById('tank').style.top = a + "px";
+            }
+
+        }
+
+        function phai() {
+
+            var topxe = document.getElementById('tank').style.top;
+            var a = parseInt(topxe);
+            var leftxe = document.getElementById('tank').style.left;
+            var b = parseInt(leftxe);
+            var topbom = document.getElementById('bom').style.top;
+            var c = parseInt(topbom);
+            var leftbom = document.getElementById('bom').style.left;
+            var d = parseInt(leftbom);
+            b += 19;
+            if (b <= 171) {
+
+                if (b == d && (c + 19) == a) {
+                    document.getElementById('tank').style.backgroundImage = "url('./explosion.png')";
+                    document.getElementById('bom').style.display = 'none';
+
+                }
+                document.getElementById('tank').style.left = b + 'px';
+
+            }
+
+
+        }
+
+        function trai() {
+
+            var topxe = document.getElementById('tank').style.top;
+            var a = parseInt(topxe);
+            var leftxe = document.getElementById('tank').style.left;
+            var b = parseInt(leftxe);
+            var topbom = document.getElementById('bom').style.top;
+            var c = parseInt(topbom);
+            var leftbom = document.getElementById('bom').style.left;
+            var d = parseInt(leftbom);
+            b -= 19;
+            if (b >= 0) {
+
+                if (b == d && c == (a - 19)) {
+                    document.getElementById('tank').style.backgroundImage = "url('./explosion.png')";
+                    document.getElementById('bom').style.display = 'none';
+                }
+                document.getElementById('tank').style.left = b + "px";
+            }
+        }
+    </script>
+</body>
+
+</html>
