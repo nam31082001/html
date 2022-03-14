@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        m = +prompt('nhap giá trị m');
+
+        function KTSNT(a) {
+            for (var i = 2; i < (a - 1); i++) {
+                if (a % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        var dem = 0;
+        for (var i = 2;; i++) {
+            if (KTSNT(i) == true) {
+                document.write(i + '<br/>');
+                dem++;
+            }
+            if (dem == m) {
+                break;
+            }
+
+        }
+    </script>
+</body>
+
+</html>

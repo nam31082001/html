@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="soa">
+    <input type="text" id="sob">
+    <button id="tong">Tổng</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        var e = document.getElementById('tong');
+        e.onclick = function () {
+            var a = +document.getElementById('soa').value;
+            var b = +document.getElementById('sob').value;
+            var tong = 0;
+            for (i = a; i <= b; i++) {
+                tong += i;
+            }
+            document.getElementById('hienthi').innerHTML = tong;
+        }
+    </script>
+
+</body>
+
+</html>
