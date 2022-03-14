@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Môn Toán: <input type="text" id="toan"><br><br>
+    Môn Văn: <input type="text" id="van"> <br><br>
+    Môn Anh: <input type="text" id="anh"><br><br>
+    <select id="kv">
+        <option></option>
+        <option>KV3</option>
+        <option>KV1</option>
+        <option>KV2</option>
+        <option>KV2-NT</option>
+
+    </select>
+    <br><br>
+    <button id="tinh">Kiểm Tra</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        var a = document.getElementById('tinh');
+
+        a.onclick = function () {
+            var text = document.getElementById('kv').value;
+            // var giatri=text
+            var b = +document.getElementById('toan').value;
+            var c = +document.getElementById('van').value;
+            var d = +document.getElementById('anh').value;
+            var e = b + c + d;
+            if ((b <= 10) && (c <= 10) && (d <= 10)) {
+                if (text == '' || text == 'KV3') {
+                    e = b + c + d + 0;
+                } else if (text == 'KV1') {
+                    e = b + c + d + 0.75;
+                } else if (text == 'KV2') {
+                    e = b + c + d + 0.25;
+                } else if (text == 'KV2-NT') {
+                    e = b + c + d + 0.5;
+                }
+            } else {
+               alert('nhập lại');
+            }
+            document.getElementById('hienthi').innerHTML = e;
+        }
+    </script>
+
+
+</body>
+
+</html>

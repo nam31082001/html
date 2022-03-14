@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Số Tiền: <input type="text" id="tien"><br><br>
+    Loại tiền: <select id="kv">
+        <option></option>
+        <option>Việt Nam</option>2
+        <option>Mỹ</option>
+        <option>Trung Quốc</option>
+        <option>Anh</option>
+
+    </select><br> <br>
+    Loại tiền muốn chuyển: <select id="kv1">
+        <option></option>
+        <option>Việt Nam</option>
+        <option>Mỹ</option>
+        <option>Trung Quốc</option>
+        <option>Anh</option>
+
+
+    </select><br><br>
+    <button id="chuyentien">Chuyển Tiền</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        var a = document.getElementById('chuyentien');
+        a.onclick = function () {
+            var tien = +document.getElementById('tien').value;
+            var text = document.getElementById('kv').value;
+            var text1 = document.getElementById('kv1').value;
+            var b = tien * 1;
+            if (tien > 0) {
+                if (text1 == text) {
+                    document.getElementById('hienthi').innerHTML = tien;
+                }else if(text=='Việt Nam'&&text1=='Mỹ'){
+                    b=tien*1*2;
+                }else if(text=='Việt Nam'&&text1=='Trung Quốc'){
+                    b=tien*1*3;
+                }else if(text=='Việt Nam'&&text1=='Anh'){
+                    b=tien*1*4;
+                }else if(text=='Mỹ'&&text1=='Việt Nam'){
+                    b=(tien*1)/2;
+                }else if(text=='Mỹ'&&text1=='Trung Quốc'){
+                    b=(tien*1)*5;
+                }else if(text=='Mỹ'&&text1=='Anh'){
+                    b=(tien*1)*6;
+                }else if(text=='Trung Quốc'&&text1=='Việt Nam'){
+                    b=(tien*1)*7;
+                }else if(text=='Trung Quốc'&&text1=='Mỹ'){
+                    b=(tien*1)/5;
+                }else if(text=='Trung Quốc'&&text1=='Anh'){
+                    b=(tien*1)*9;
+                }else if(text=='Anh'&&text1=='Việt Nam'){
+                    b=(tien*1)/4;
+                }else if(text=='Anh'&&text1=='Mỹ'){
+                    b=(tien*1)/6;
+                }else if(text=='Anh'&&text1=='Trung Quốc'){
+                    b=(tien*1)/9;
+                }
+            } else {
+                alert('nhập lại')
+            }
+            document.getElementById('hienthi').innerHTML = 'Số tiền:'+b;
+
+
+        }
+    </script>
+</body>
+
+</html>

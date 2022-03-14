@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Nhập Tháng: <input type="text" id="nam">
+    <button id="kiemtra">Kiểm Tra</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        var a = document.getElementById('kiemtra');
+        a.onclick = function () {
+            var thang = +document.getElementById('nam').value;
+            if (thang <= 12 && thang > 0){
+                if(thang=='1'||thang=='3'||thang=='5'||thang=='7'||thang=='8'||thang=='10'||thang=='12'){
+                    document.getElementById('hienthi').innerHTML='Tháng này có 31 ngày'
+                }else if(thang=='2'){
+                    document.getElementById('hienthi').innerHTML='Tháng này có 28 ngày'
+                }else if(thang=='4'||thang=='6'||thang=='9'||thang=='11'){
+                    document.getElementById('hienthi').innerHTML='Tháng này có 30ngày'
+                }
+            }else{
+                alert('xem lại tháng nhé!')
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="nhapnam">
+    <button id="kiemtra">Kiểm Tra</button>
+    <h1 id="hienthi"></h1>
+    <script>
+        var a = document.getElementById('kiemtra');
+        a.onclick = function () {
+            var nam = +document.getElementById('nhapnam').value;
+            var n = null;
+            var m = null;
+            var can = nam % 10;
+            var chi = nam % 12;
+            if (nam > 0) {
+                if (can == 0) {
+                    n = 'Canh';
+                } else if (can == 1) {
+                    n = 'Tân'
+                } else if (can == 2) {
+                    n = 'Nhâm'
+                } else if (can == 3) {
+                    n = 'Quý'
+                } else if (can == 4) {
+                    n = 'Giáp'
+                } else if (can == 5) {
+                    n = 'Ất'
+                } else if (can == 6) {
+                    n = 'Bình'
+                } else if (can == 7) {
+                    n = 'Đinh'
+                } else if (can == 8) {
+                    n = 'Mậu'
+                } else if (can == 9) {
+                    n = 'kỷ'
+                }
+                if (chi == 0) {
+                    m = 'Thân'
+                } else if (chi == 1) {
+                    m = 'Dậu'
+                } else if (chi == 2) {
+                    m = 'Tuất'
+                } else if (chi == 3) {
+                    m = 'Hợi'
+                } else if (chi == 4) {
+                    m = 'Tý'
+                } else if (chi == 5) {
+                    m = 'Sửu'
+                } else if (chi == 6) {
+                    m = 'Dần'
+                } else if (chi == 7) {
+                    m = 'Mão'
+                } else if (chi == 8) {
+                    m = 'Thìn'
+                } else if (chi == 9) {
+                    m = 'Tỵ'
+                } else if (chi == 10) {
+                    m = 'Ngọ'
+                } else if (chi == 1) {
+                    m = 'Mùi'
+                }
+            } else {
+                alert('nhập lại Năm');
+            }
+            document.getElementById('hienthi').innerHTML = 'Năm' + nam + 'tên là:' + n + m;
+        }
+    </script>
+</body>
+
+</html>

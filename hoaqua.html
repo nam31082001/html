@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nhapvao">
+    <button id="kiemtra">Kiểm Tra</button>
+    <h1 id="gia"></h1>
+    <script>
+        var a=document.getElementById('kiemtra');
+        a.onclick=function(){
+            var text=document.getElementById('nhapvao').value;
+            var a="";
+            if(text=='Xoài'){
+                a='10000vnd'
+
+            }else if(text=='Cam'){
+                a='20000vnd'
+            }
+            else if(text=='Vải'){
+                a='30000vnd'
+            }
+            document.getElementById('gia').innerHTML=a;
+
+        }
+    </script>
+</body>
+</html>
