@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #play_game {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            display: grid;
+            grid-template-rows: repeat(15, 1fr);
+            grid-template-columns: repeat(15, 1fr);
+        }
+
+        #snake {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #eat {
+            width: 20px;
+            height: 20px;
+            background: rgb(168, 211, 12);
+        }
+
+        .class {
+            width: 20px;
+            height: 20px;
+            background: red;
+            margin: 0 1px 0 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="play_game">
+        <div id="snake" style=" position: relative; top: 0;left: 0;">
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+
+
+        </div>
+        <div id="eat" style=" position: relative; top: 100px;  left: 100px;"></div>
+    </div>
+
+    <script>
+        let snake1 = document.querySelectorAll('#snake>div')
+        let snake = document.getElementById('snake');
+        let eat = document.getElementById('eat');
+        let x = 2;
+        let y = 0;
+
+        function getRandomInt(min, max) {
+
+            return Math.floor(Math.random() * (max - min)) + min;
+
+        }
+        let arr = [];
+
+        function arr1() {
+            snake.innerHTML = ' <div class="class" style=" position: relative; top: 0;left: 0;"></div>';
+            for (let i = 0; i < snake1.length; i++) {
+                let a = arr.push(snake1[i]);
+            }
+
+        }
+
+        function updet() {
+            for (let i = 0; i < arr.length; i++) {
+                parseInt(arr[i].style.top)= parseInt(arr[i+1].style.top);
+                parseInt(arr[i].style.left)= parseInt(arr[i+1].style.left);
+            }
+        }
+
+
+        function run() {
+            snake.style.top = parseInt(snake.style.top) + y + 'px';
+            snake.style.left = parseInt(snake.style.left) + x + 'px';
+
+
+            // snake đối
+            if (parseInt(snake.style.left) < 0) {
+                snake.style.left = 280 + 'px';
+            } else if (parseInt(snake.style.left) > 300) {
+                snake.style.left = 0 + 'px';
+            }
+            if (parseInt(snake.style.top) < 0) {
+                snake.style.top = 280 + 'px';
+            } else if (parseInt(snake.style.top) > 300) {
+                snake.style.top = 0 + 'px';
+            }
+
+
+
+            // snake ăn apple
+
+            let topsnake = parseInt(snake.style.top);
+            let leftsnake = parseInt(snake.style.left);
+            let topeat = parseInt(eat.style.top);
+            let lefteat = parseInt(eat.style.left);
+
+
+            if (topsnake > topeat && topsnake < (topeat + 20) && leftsnake > lefteat && leftsnake < (lefteat + 40)) {
+                eat.style.top = getRandomInt(0, 10) * 20 + 'px';
+                eat.style.left = getRandomInt(0, 10) * 20 + 'px';
+                arr1();
+                updet()
+            }
+            if (topsnake <= topeat && topsnake >= (topeat - 20) && leftsnake >= lefteat && leftsnake <= (lefteat -
+                    20)) {
+                eat.style.top = getRandomInt(0, 10) * 20 + 'px';
+                eat.style.left = getRandomInt(0, 10) * 20 + 'px';
+                arr1()
+                updet()
+
+            }
+            if (topsnake >= topeat && topsnake <= (topeat + 20) && leftsnake >= lefteat && leftsnake <= (lefteat -
+                    20)) {
+                eat.style.top = getRandomInt(0, 10) * 20 + 'px';
+                eat.style.left = getRandomInt(0, 10) * 20 + 'px';
+                arr1()
+                updet()
+            }
+
+            requestAnimationFrame(run)
+        }
+        run();
+
+
+        window.addEventListener('keydown', (e) => {
+            console.log(e);
+            if (e.key == "ArrowUp" && y == 0) {
+                y = -2;
+                x = 0;
+            }
+            if (e.key == "ArrowDown" && y == 0) {
+                y = 2;
+                x = 0;
+            }
+            if (e.key == "ArrowLeft" && x == 0) {
+                y = 0;
+                x = -2;
+            }
+            if (e.key == "ArrowRight" && x == 0) {
+                y = 0;
+                x = 2;
+            }
+        })
+    </script>
+</body>
+
+</html>
