@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #alphabet {
+            width: 160px;
+            height: 100px;
+            /* border: 1px solid red; */
+        }
+
+        #question {
+            width: 160px;
+            height: 40px;
+            /* border: 1px solid red; */
+        }
+
+        #answer {
+            width: 200px;
+            height: 40px;
+            /* border: 1px solid red; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="alphabet"> </div>
+    <div id="question"></div>
+    <div id="answer">
+    </div>
+    <div id="diem"></div>
+    <script>
+        let chucai = document.getElementById('alphabet');
+        let arr = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',
+            'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',
+            'z', 'x', 'c', 'v', 'b', 'n', 'm'
+        ]
+        for (let i = 0; i < arr.length; i++) {
+            chucai.innerHTML += "<button style='width:20px;height:20px;margin:1px'>" + arr[i] + "</button>"
+        }
+        let arrquestion = ['Lịch nào dài nhất', 'Con đường dài nhất là đường nào', 'Cổ gì dài nhất',
+            'Xã đông nhất là xã nào'
+        ]
+        let arranswer = ['lichsu', 'duongdoi', 'coxua', 'xahoi']
+
+
+        function radomquestion(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+
+        let questiondiv = document.getElementById('question');
+        let answerdiv = document.getElementById('answer');
+
+        function radom(b) {
+            let c = radomquestion(0, b);
+            return c
+        }
+        let b = arrquestion.length;
+        let a = radom(b);
+
+        let c = arranswer[a];
+        questiondiv.innerHTML = arrquestion[a];
+
+        for (let i = 0; i < c.length; i++) {
+            answerdiv.innerHTML += ' <input type="text" value="?" style="width:20px">'
+        }
+
+        let button = document.querySelectorAll(' button');
+        let input = document.querySelectorAll(' input')
+        let slepp = 0;
+
+
+        function hien(text) {
+            input[slepp++].value = text;
+            if (slepp == (input.length)) {
+                slepp = 0;
+            }
+
+        }
+        let str = '';
+        let arr1 = [];
+        let diem = 0;
+        let diemchoi = document.getElementById('diem')
+
+        function xuat() {
+            for (let i = 0; i < button.length; i++) {
+                button[i].addEventListener('click', function () {
+                    arr1.push(button[i].innerText);
+                    hien(button[i].innerText);
+                    console.log(button[i].innerText)
+                    console.log(arr1)
+                    layGiaTri()
+                    kiemTra()
+                })
+            }
+        }
+        xuat();
+
+        function layGiaTri() {
+            for (let i = 0; i < arr1.length; i++) {
+                str += arr1[i];
+            }
+            console.log(str);
+        }
+        let hienthi = '';
+
+        function kiemTra() {
+            if (str == c) {
+                hienthi = 'qua câu 1 ban được cộng 10 điểm'
+                let check = confirm(hienthi);
+                if (check == true) {
+                    l = radom(b)
+                    c = arranswer[l]
+                    questiondiv.innerHTML = arrquestion[l];
+                    for (let i = 0; i < c.length; i++) {
+                        answerdiv.innerHTML += ' <input type="text" value="?" style="width:20px">'
+                    }
+                    hien(button[i].innerText)
+                    xuat()
+                }
+                diem += 10;
+                diemchoi.innerHTML = diem;
+            } else {
+                str = '';
+            }
+        }
+        kiemTra()
+    </script>
+</body>
+
+</html>
