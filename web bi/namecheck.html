@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:invalid {
+            border: 2px solid red;
+        }
+
+        input:invalid:required {
+            border-color: red;
+        }
+
+        input:valid {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+        <label for="fullName">Full Name</label>
+        <br>
+        <input type="text" id="fullName">
+        <p id="nameError" style="display:none;margin:0;"></p>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="" id="email">
+        <p id="emailError" style="display:none;margin:0;"></p>
+        <br>
+        <label for="age">Age</label>
+        <br>
+        <input type="number" name="" id="age">
+        <br>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="text" name="" id="phone">
+        <p id="phoneError" style="display:none;margin:0;"></p>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        function isValidPhoneNumber(phoneNumber) {
+            const phoneNumberRegex = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+            return phoneNumberRegex.test(email);
+        }
+
+        function isValidEmail(email) {
+            const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+            return emailRegex.test(email);
+        }
+
+        function isValidName(name) {
+            const nameRegex = /^[_a-z0-9]{6,}$/
+            return nameRegex.test(name);
+        }
+        const form = document.getElementById('form');
+        form.addEventListener('submit', (event) => {
+            let emailInput = document.getElementById('email');
+            let phoneInout = document.getElementById('phone');
+            let nameInput=document.getElementById('fullName')
+            if (isValidEmail(emailInput.value) == false) {
+                let emailError = document.getElementById('emailError');
+                emailError.innerHTML = 'Email is invalid, isValidEmail';
+                emailError.style.color = 'red';
+                emailError.style.display = 'block';
+                emailInput.style.borderColor = 'red'
+            }
+            if (isValidPhoneNumber(phoneInout.value) == false) {
+                let emailError = document.getElementById('phoneError');
+                emailError.innerHTML = 'Phone is invalid, isValidPhone';
+                emailError.style.color = 'red';
+                emailError.style.display = 'block';
+                emailInput.style.borderColor = 'red'
+            }
+            if (isValidName(nameInput.value) == false) {
+                let nameError = document.getElementById('nameError');
+                nameError.innerHTML = 'Name is invalid, isValidName';
+                nameError.style.color = 'red';
+                nameError.style.display = 'block';
+                nameInput.style.borderColor = 'red'
+            }
+            event.preventDefault();
+        })
+    </script>
+</body>
+
+</html>
