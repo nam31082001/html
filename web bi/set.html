@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Thêm Tên</p>
+    <input type="text" id="more"><br>
+    <button id="but_more_name">Thêm</button><button id="but_Delete_name">Xóa</button><button id="in_ra">In ra</button>
+   
+ 
+    
+    <script>
+        const DDDV = ['Hổ', 'Khỉ', 'Chim', 'Chó', 'Mèo'];
+        const danh_sach = new Set(DDDV);
+        console.log(danh_sach);
+
+        document.getElementById('but_more_name').addEventListener('click', function () {
+            let more_name = document.getElementById('more').value;
+            if (danh_sach.has(more_name)) {
+                alert(more_name + 'đã có trong danh sách')
+            } else {
+                danh_sach.add(more_name);
+                alert('Đã thêm ' + more_name + 'thành công')
+                console.log(danh_sach);
+            }
+        })
+        document.getElementById('but_Delete_name').addEventListener('click',function(){
+            let more_name = document.getElementById('more').value;
+            if (!danh_sach.has(more_name)) {
+                alert(more_name + 'chưa có trong danh sách')
+            } else {
+               danh_sach.delete(more_name)
+                alert('Đã xóa ' + more_name + 'ra khỏi danh sách')
+                console.log(danh_sach);
+            }
+        })
+        document.getElementById('in_ra').addEventListener('click',function(){
+           const DDDVM=Array.from(danh_sach);
+           document.write(DDDVM)
+
+        })
+    </script>
+</body>
+
+</html>
