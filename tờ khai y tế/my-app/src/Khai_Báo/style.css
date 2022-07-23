@@ -1,0 +1,92 @@
+.Khai_bao_1 {
+  width: 60%;
+  border: 1px solid;
+  margin: auto;
+}
+
+.Khai_bao_1 .cap_nhap {
+  float: right;
+}
+
+.Khai_bao_1 .form1 {
+  height: 80px;
+}
+
+.Khai_bao_1 .form1 input {
+  width: 45%;
+  margin: 10px;
+}
+
+.Khai_bao_1 .form1 label {
+  display: inline-block;
+  width: 45%;
+  margin-left: 20px;
+}
+
+.Khai_bao_1 .form2 {
+  height: 80px;
+}
+
+.Khai_bao_1 .form2 label:nth-child(1) {
+  display: inline-block;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.Khai_bao_1 .form2 label:nth-child(2) {
+  display: inline-block;
+  width: 30%;
+  margin-left: 60px;
+}
+
+.Khai_bao_1 .form2 label:nth-child(3) {
+  display: inline-block;
+  width: 30%;
+  margin-left: 90px;
+}
+
+.Khai_bao_1 .form2 #year {
+  width: 25%;
+  margin-left: 30px;
+}
+
+.Khai_bao_1 .form2 #quoc_tich {
+  float: right;
+  width: 30%;
+}
+
+.Khai_bao_1 .form3, .Khai_bao_1 .form4 {
+  height: 80px;
+}
+
+.Khai_bao_1 .form3 label:nth-child(1), .Khai_bao_1 .form4 label:nth-child(1) {
+  display: inline-block;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.Khai_bao_1 .form3 label:nth-child(2), .Khai_bao_1 .form4 label:nth-child(2) {
+  display: inline-block;
+  width: 20%;
+  margin-left: 120px;
+}
+
+.Khai_bao_1 .form3 label:nth-child(3), .Khai_bao_1 .form4 label:nth-child(3) {
+  display: inline-block;
+  width: 20%;
+  margin-left: 110px;
+}
+
+.Khai_bao_1 .form3 #tinh, .Khai_bao_1 .form3 #xa, .Khai_bao_1 .form3 #huyen, .Khai_bao_1 .form3 #so_nha, .Khai_bao_1 .form3 #phone, .Khai_bao_1 .form3 #email, .Khai_bao_1 .form4 #tinh, .Khai_bao_1 .form4 #xa, .Khai_bao_1 .form4 #huyen, .Khai_bao_1 .form4 #so_nha, .Khai_bao_1 .form4 #phone, .Khai_bao_1 .form4 #email {
+  width: 260px;
+  margin-left: 30px;
+}
+
+.Khai_bao_1 .form5 .td5 {
+  width: 800px;
+}
+
+.Khai_bao_1 .form6 .td6 {
+  width: 800px;
+}
+/*# sourceMappingURL=style.css.map */
