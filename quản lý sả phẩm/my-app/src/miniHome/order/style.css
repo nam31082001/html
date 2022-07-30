@@ -1,0 +1,16 @@
+.tableOrder {
+  width: 100%;
+}
+
+.tableOrder td, .tableOrder th {
+  border: solid;
+}
+
+.pOrder {
+  text-align: left;
+}
+
+.nav {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

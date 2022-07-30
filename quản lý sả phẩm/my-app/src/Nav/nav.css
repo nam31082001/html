@@ -1,0 +1,32 @@
+.Nav {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Nav .Nav-h1 {
+  width: 20%;
+}
+
+.Nav .Nav-h1 h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+.Nav .Nav-cog {
+  width: 5%;
+  margin-top: 10px;
+}
+
+.Nav .Nav-Flag-Bell-Sign {
+  width: 90%;
+  text-align: right;
+}
+
+.Nav .Nav-Flag-Bell-Sign i {
+  margin-right: 5%;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=nav.css.map */

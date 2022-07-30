@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAG,OAAkB;EAC/B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "listTb.scss"
+    ],
+    "names": [],
+    "file": "listTb.css"
+}

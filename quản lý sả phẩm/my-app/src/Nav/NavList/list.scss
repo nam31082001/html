@@ -1,0 +1,16 @@
+.ListNav{
+    width: 800px;
+    height: 150px;
+    background: rgb(226, 205, 205);
+    position: relative;
+    tr{
+        td,th{
+            width: 200px;
+            height: 30px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

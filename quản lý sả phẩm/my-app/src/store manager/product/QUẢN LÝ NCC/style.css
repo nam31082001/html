@@ -1,0 +1,12 @@
+.quan_ly {
+  background-color: #c3b4b4;
+}
+
+.quan_ly p {
+  text-align: right;
+}
+
+.quan_ly table td, .quan_ly table th {
+  border: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
