@@ -1,0 +1,13 @@
+.ManageProduct {
+  width: 80%;
+  margin: auto;
+}
+
+.ManageProduct table,
+.ManageProduct tr,
+.ManageProduct th,
+.ManageProduct td {
+  border: 1px solid;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

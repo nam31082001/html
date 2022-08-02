@@ -26,10 +26,10 @@ const SideBar = () => {
                         Bảng điều kiển
                     </NavLink><br />
                     <NavLink to="/store-manager" activeClassName="active" >
-                        Quản lý 
+                        Quản lý Chung
                     </NavLink><br />
                     <NavLink to="/order" activeClassName="active" >
-                        Đặt Hàng
+                        Sản Phẩm
                     </NavLink><br />
                     <NavLink to="/product" activeClassName="active" >
                         Khách Hàng

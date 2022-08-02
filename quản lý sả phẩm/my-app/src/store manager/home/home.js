@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../../Nav/nav";
 import Nav_Manager from '../nav-Manager/navManagaer';
 import Add_Ncc from '../product/ADD NCC/index';
-import Buy_History from '../buy/BUY HISTORY/index'
+import Buy from "../buy/buyHome/buy";
 import '../home/style.css';
 import {
     BrowserRouter as Router,
@@ -22,7 +22,7 @@ const Home_Manager = () => {
                         <Add_Ncc/>
                     </Route>
                     <Route path="/buy-product">
-                      <Buy_History/>
+                      <Buy/>
                     </Route>
                    
                 </Switch>

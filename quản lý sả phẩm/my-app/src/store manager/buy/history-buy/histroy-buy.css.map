@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,CACV,CAAC,CAAA;EACG,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "histroy-buy.scss"
+    ],
+    "names": [],
+    "file": "histroy-buy.css"
+}

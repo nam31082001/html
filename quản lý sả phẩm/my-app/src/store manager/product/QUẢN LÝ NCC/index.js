@@ -6,6 +6,7 @@ const Quan_Ly_NCC = (props) => {
    const elete = props.delete
    const [checkItem, setCheckItem] = useState();
    const [is, setIs] = useState(true)
+   const [search, setSearch] = useState('')
 
 
 
@@ -56,7 +57,11 @@ const Quan_Ly_NCC = (props) => {
    return (
       <div className="Quan_Ly_NCC">
          <div className="quan_ly">
-            <p> <label>Tìm Kiếm Nhà cung Cấp:</label><input /></p>
+            <p> <label>Tìm Kiếm Nhà cung Cấp:</label><input
+               type="text"
+               placeholder="Search..."
+               onChange={(event) => { setSearch(event.target.value) }}
+            /></p>
             <table>
                <tr>
                   <th>STT</th>
@@ -66,7 +71,14 @@ const Quan_Ly_NCC = (props) => {
                   <th>Email</th>
                   <th>Edit</th>
                </tr>
-               {data.map((item, index) => {
+               {data.filter((item) => {
+
+                  if (search === '') {
+                     return item
+                  } else if (item.name.toLowerCase().includes(search.toLowerCase())) {
+                     return item
+                  }
+               }).map((item, index) => {
                   return (
                      <tr>
                         {is ? <>

@@ -1,0 +1,14 @@
+.AddProduct {
+  width: 90%;
+  margin: auto;
+}
+
+.AddProduct input {
+  width: 70%;
+}
+
+.AddProduct .divImg {
+  display: inline-block;
+  border: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */

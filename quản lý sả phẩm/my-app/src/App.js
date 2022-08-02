@@ -1,16 +1,14 @@
 import './App.css';
 import HomeMini from './miniHome/home';
-import Nav from './Nav/nav';
 import { useEffect, useState } from 'react';
 import SideBar from './SideBar/bar';
 import Home_Manager from './store manager/home/home';
-import Home_Order from './Đặt Hàng/Home/home';
-import Home_Product from './Sản Phẩm/Home/home';
+import Home_Order from './Product/Home/home'
+import Home_Product from './Client/Home/home'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 const App = () => {
   const [ShowGoToTop, setShowGoToTop] = useState(false)
