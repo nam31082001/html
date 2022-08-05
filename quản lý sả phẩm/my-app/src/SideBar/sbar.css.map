@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;CAgBlB;;AAjBD,AAGI,QAHI,CAGJ,SAAS,CAAC;EACN,UAAU,EAAE,KAAK;CACpB;;AALL,AAOI,QAPI,CAOJ,KAAK,CAAC;EACF,UAAU,EAAE,IAAI;CAOnB;;AAfL,AAUQ,QAVA,CAOJ,KAAK,CAGD,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "sbar.scss"
-    ],
-    "names": [],
-    "file": "sbar.css"
-}

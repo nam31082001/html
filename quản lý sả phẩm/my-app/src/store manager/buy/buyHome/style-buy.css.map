@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,IAAI;CAShB;;AAVD,AAEI,IAFA,CAEA,YAAY,CAAA;EAER,KAAK,EAAE,GAAG;CACb;;AALL,AAMI,IANA,CAMA,oBAAoB,CAAA;EAChB,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,GAAG;CACb",
-    "sources": [
-        "style-buy.scss"
-    ],
-    "names": [],
-    "file": "style-buy.css"
-}

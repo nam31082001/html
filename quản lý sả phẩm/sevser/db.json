@@ -213,150 +213,78 @@
   ],
   "product": [
     {
-      "id": 9,
-      "idName": "s1",
-      "Name": "sản phâm 1",
-      "price": "1907"
-    },
-    {
-      "id": 10,
-      "idName": "s1",
-      "Name": "sản phâm 1",
-      "price": "1078"
-    },
-    {
-      "id": 11,
-      "idName": "s1",
-      "Name": "sản phâm 1",
-      "price": "99"
-    },
-    {
       "id": 12,
-      "idName": "s1",
-      "Name": "sản phâm 1",
-      "price": "99"
+      "Name": "Bánh Bông Lan",
+      "idName": "90",
+      "price": "90"
     },
     {
       "id": 13,
-      "idName": "s1",
-      "Name": "sản phâm 1",
-      "price": "99"
+      "Name": "Bánh Gạo",
+      "idName": "is9",
+      "price": "9000"
     },
     {
-      "id": 14,
-      "idName": "s1",
-      "Name": "nike dq",
-      "price": "99"
+      "Name": "Bánh chocopai",
+      "price": "78",
+      "idName": "is10",
+      "id": 14
     },
     {
-      "id": 15,
-      "idName": "s1",
-      "Name": "nike fq",
-      "price": "99"
-    },
-    {
-      "id": 16,
-      "idName": "s1",
-      "Name": "nike hq",
-      "price": "99"
-    },
-    {
-      "id": 17,
-      "idName": "s1",
-      "Name": "nike hq",
-      "price": "99"
-    },
-    {
-      "id": 18,
-      "idName": "s1",
-      "Name": "nike tq",
-      "price": "99"
-    },
-    {
-      "id": 19,
-      "idName": "s1",
-      "Name": "nike q",
-      "price": "99"
-    },
-    {
-      "id": 20,
-      "idName": "s1",
-      "Name": "nikee q",
-      "price": "99"
-    },
-    {
-      "id": 21,
-      "idName": "s1",
-      "Name": "nike eq",
-      "price": "99"
-    },
-    {
-      "id": 22,
-      "idName": "s1",
-      "Name": "nike eq",
-      "price": "99"
-    },
-    {
-      "id": 23,
-      "idName": "s1",
-      "Name": "nike eq",
-      "price": "99"
-    },
-    {
-      "id": 24,
-      "idName": "s1",
-      "Name": "nike eq",
-      "price": "99"
-    },
-    {
-      "Name": "sản phâm 6",
-      "price": "17",
-      "idName": "s1",
-      "id": 26
-    },
-    {
-      "Name": "cao văn nam",
-      "price": "9000",
-      "idName": "idName",
-      "id": 27
-    },
-    {
-      "Name": "cao văn nam",
-      "price": "9000",
-      "idName": "idName",
-      "id": 28
-    },
-    {
-      "Name": "sản phâm 7",
-      "price": "19",
-      "idName": "s1",
-      "id": 29
+      "Name": "Thạch Dừa",
+      "price": "9",
+      "idName": "is11",
+      "id": 15
     }
   ],
   "brokenProduct": [
     {
-      "Name": "sản phâm 8",
-      "price": "107",
+      "id": 11,
+      "Name": "Bánh Mỳ",
+      "price": "900",
+      "idName": "s1"
+    }
+  ],
+  "buy": [
+    {
+      "id": 11,
+      "Name": "Bánh Mỳ",
       "idName": "s1",
-      "id": 4
+      "price": "900"
     },
     {
-      "Name": "nike eq",
-      "price": "99",
-      "idName": "s1",
-      "id": 5
+      "id": 12,
+      "Name": "Bánh Bông Lan",
+      "idName": "90",
+      "price": "90"
     },
     {
-      "Name": "nike q",
-      "price": "99",
-      "idName": "s1",
-      "id": 6
+      "id": 13,
+      "Name": "Bánh Gạo",
+      "idName": "is9",
+      "price": "9000"
+    }
+  ],
+  "Client": [
+    {
+      "id": 3,
+      "idName": "s3",
+      "Name": "Ông C",
+      "number": "777777777",
+      "passport": "777887887",
+      "birth": "12/12/1990",
+      "email": "nguyenvanA@gmail.com",
+      "address": "Hà Nội"
     },
     {
-      "Name": "dfgfg regerhger",
-      "price": "9000",
-      "idName": "idName",
-      "id": 8
+      "id": 4,
+      "idName": "s7",
+      "Name": "ông h",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-26",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii"
     }
   ]
 }

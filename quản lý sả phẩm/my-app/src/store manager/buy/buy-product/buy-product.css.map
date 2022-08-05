@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAC,AACG,QADK,CACL,KAAK,CAAA;EACD,KAAK,EAAE,IAAI;CACd",
-    "sources": [
-        "buy-product.scss"
-    ],
-    "names": [],
-    "file": "buy-product.css"
-}
