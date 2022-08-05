@@ -106,6 +106,11 @@ const Home_Order = () => {
         }
         InputAddProducts()
     }
+    const PutProductS= async(item)=>{
+        console.log(item)
+        await axios.put(' http://localhost:3000/product', item)
+    }
+    PutProductS()
 
     return (
         <Router>
