@@ -1,0 +1,13 @@
+.AddSupplier {
+  width: 100%;
+}
+
+.AddSupplier .formik-Add_Supplier {
+  margin-left: 1%;
+}
+
+.AddSupplier .formik-Add_Supplier input {
+  display: block;
+  width: 90%;
+}
+/*# sourceMappingURL=addSupplier.css.map */

@@ -1,0 +1,53 @@
+.HomeBuy {
+    .HomeBuy-Total {
+        width: 100%;
+        display: flex;
+
+        .HomeBuy-Table {
+            width: 100%;
+
+            table {
+                margin: auto;
+                width: 80%;
+
+                table,
+                tr,
+                th,
+                td {
+                    border: 1px solid;
+                }
+
+                tr,
+                th,
+                td {
+                    border: 1px solid;
+                    text-align: center;
+                }
+            }
+        }
+
+        .HomeBuy-Shop {
+            margin-right: 1%;
+
+            table,
+            tr,
+            th,
+            td {
+                border: 1px solid;
+                margin-right: 1%;
+                text-align: center;
+                tr,
+                th,
+                td {
+                    width: 100px;
+                }
+
+                input {
+
+                    width: 50%;
+                }
+
+            }
+        }
+    }
+}

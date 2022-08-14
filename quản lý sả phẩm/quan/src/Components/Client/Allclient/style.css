@@ -1,0 +1,13 @@
+.AllClient table {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+}
+
+.AllClient table tr,
+.AllClient table td,
+.AllClient table th {
+  border: 1px solid;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

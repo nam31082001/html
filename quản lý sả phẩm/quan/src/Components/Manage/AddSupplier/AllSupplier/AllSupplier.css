@@ -1,0 +1,14 @@
+.AllSuplider table {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.AllSuplider tr,
+.AllSuplider td,
+.AllSuplider th {
+  margin: auto;
+  text-align: center;
+  border: 1px solid;
+}
+/*# sourceMappingURL=AllSupplier.css.map */

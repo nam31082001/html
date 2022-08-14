@@ -1,0 +1,66 @@
+.homepage .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage .item1 div {
+  border: 1px solid;
+  width: 30%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin: auto;
+}
+
+.homepage .item1 div h5,
+.homepage .item1 div h6 {
+  text-align: center;
+}
+
+.homepage .item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1%;
+}
+
+.homepage .item2 .item2-Chart {
+  width: 60%;
+}
+
+.homepage .item2 .item2-Chart h3 {
+  text-align: center;
+}
+
+.homepage .item2 .item2-Chart tr,
+.homepage .item2 .item2-Chart td,
+.homepage .item2 .item2-Chart th {
+  text-align: center;
+  border: 1px solid;
+}
+
+.homepage .item2 .item2-Chart table {
+  width: 90%;
+  margin: auto;
+}
+
+.homepage .item2 .item2-Table h3 {
+  text-align: center;
+}
+
+.homepage .item2 .item2-Table tr,
+.homepage .item2 .item2-Table td,
+.homepage .item2 .item2-Table th {
+  text-align: center;
+  border: 1px solid;
+}
+
+.homepage .item2 .item2-Table table {
+  width: 100%;
+}
+
+.homepage .item2 .item2-Table div {
+  height: 400px;
+  margin-top: 1%;
+}
+/*# sourceMappingURL=homePage.css.map */

@@ -1,0 +1,18 @@
+.ProductGood table {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+}
+
+.ProductGood table tr,
+.ProductGood table th,
+.ProductGood table td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.ProductGood p {
+  padding-top: 2%;
+  margin-left: 2%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,335 @@
+{
+  "posts": [
+    {
+      "number": 1,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 2,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "170.000 đồng"
+    },
+    {
+      "number": 3,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "200.000 đồng"
+    },
+    {
+      "number": 4,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "300.000 đồng"
+    },
+    {
+      "number": 5,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "400.000 đồng"
+    },
+    {
+      "number": 6,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "500.000 đồng"
+    },
+    {
+      "number": 7,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "690.000 đồng"
+    },
+    {
+      "number": 8,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 9,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "800.000 đồng"
+    },
+    {
+      "number": 10,
+      "client": "Nguyễn Văn N",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "900.000 đồng"
+    },
+    {
+      "number": 11,
+      "client": "Nguyễn Văn N",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 12,
+      "client": "Nguyễn Văn N",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "100.000 đồng"
+    },
+    {
+      "number": 13,
+      "client": "Nguyễn Văn N",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "200.000 đồng"
+    },
+    {
+      "number": 14,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "300.000 đồng"
+    },
+    {
+      "number": 15,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "400.000 đồng"
+    },
+    {
+      "number": 16,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "500.000 đồng"
+    },
+    {
+      "number": 17,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "600.000 đồng"
+    },
+    {
+      "number": 18,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 19,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "800.000 đồng"
+    },
+    {
+      "number": 20,
+      "client": "Nguyễn Văn NA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "900.000 đồng"
+    },
+    {
+      "number": 21,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 22,
+      "client": "Nguyễn Văn SA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "100.000 đồng"
+    },
+    {
+      "number": 23,
+      "client": "Nguyễn Văn AS",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "200.000 đồng"
+    },
+    {
+      "number": 24,
+      "client": "Nguyễn Văn SA",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "398.000 đồng"
+    },
+    {
+      "number": 25,
+      "client": "Nguyễn Văn SA",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "788.000 đồng"
+    },
+    {
+      "number": 26,
+      "client": "Nguyễn Văn SA",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "890.000 đồng"
+    },
+    {
+      "number": 27,
+      "client": "Nguyễn Văn AS",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "600.000 đồng"
+    },
+    {
+      "number": 28,
+      "client": "Nguyễn Văn A",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "700.000 đồng"
+    },
+    {
+      "number": 29,
+      "client": "Nguyễn Văn AS",
+      "date": "14/7",
+      "status": "Xác Nhận",
+      "money": "800.000 đồng"
+    },
+    {
+      "number": 30,
+      "client": "Nguyễn Văn AS",
+      "date": "14/7",
+      "status": " Chưa Xác Nhận",
+      "money": "900.000 đồng"
+    }
+  ],
+  "product": [
+    {
+      "Name": "nguyễn văn A",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 2
+    },
+    {
+      "Name": "nguyễn văn B",
+      "idName": "idName",
+      "price": "90",
+      "number": 1,
+      "id": 3
+    },
+    {
+      "Name": "nguyễn văn C",
+      "idName": "idName",
+      "price": "900",
+      "number": 1,
+      "id": 4
+    }
+  ],
+  "brokenProduct": [
+    {
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 3
+    },
+    {
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 4
+    }
+  ],
+  "buy": [
+    {
+      "id": 14,
+      "Name": "Bánh Bông Lan",
+      "idName": "90",
+      "number": 1,
+      "price": "90"
+    },
+    {
+      "id": 1,
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "number": 1,
+      "price": "9000"
+    }
+  ],
+  "Client": [
+    {
+      "id": 4,
+      "idName": "s7",
+      "Name": "Cao Vaen AN,",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-26",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii"
+    },
+    {
+      "id": 5,
+      "idName": "s7",
+      "Name": "ông h",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-26",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii"
+    },
+    {
+      "idName": "idName",
+      "Name": "Caonam",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-11",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii",
+      "id": 6
+    }
+  ],
+  "Supplier": [
+    {
+      "id": 1,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "jioi",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
+    },
+    {
+      "name": "công ty A",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
+    },
+    {
+      "id": 4,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
+    }
+  ]
+}

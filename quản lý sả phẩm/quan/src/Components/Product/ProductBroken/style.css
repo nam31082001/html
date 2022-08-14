@@ -1,0 +1,18 @@
+.ProductBroken table {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+}
+
+.ProductBroken table tr,
+.ProductBroken table th,
+.ProductBroken table td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.ProductBroken p {
+  padding-top: 2%;
+  margin-left: 2%;
+}
+/*# sourceMappingURL=style.css.map */

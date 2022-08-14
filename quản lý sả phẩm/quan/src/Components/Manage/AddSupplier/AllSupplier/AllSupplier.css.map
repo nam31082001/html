@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,YADQ,CACR,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,EAAE;CACjB;;AALL,AAOI,YAPQ,CAOR,EAAE;AAPN,YAAY,CAQR,EAAE;AARN,YAAY,CASR,EAAE,CAAC;EACC,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "AllSupplier.scss"
+    ],
+    "names": [],
+    "file": "AllSupplier.css"
+}

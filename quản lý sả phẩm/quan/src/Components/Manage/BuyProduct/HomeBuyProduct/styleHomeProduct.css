@@ -1,0 +1,65 @@
+.HomeBuy .HomeBuy-Total {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Table {
+  width: 100%;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table {
+  margin: auto;
+  width: 80%;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table table,
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table td {
+  border: 1px solid;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Table table td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop {
+  margin-right: 1%;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop table,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop td {
+  border: 1px solid;
+  margin-right: 1%;
+  text-align: center;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop table tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop table th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop table td,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop tr tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop tr th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop tr td,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop th tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop th th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop th td,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop td tr,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop td th,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop td td {
+  width: 100px;
+}
+
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop table input,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop tr input,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop th input,
+.HomeBuy .HomeBuy-Total .HomeBuy-Shop td input {
+  width: 50%;
+}
+/*# sourceMappingURL=styleHomeProduct.css.map */

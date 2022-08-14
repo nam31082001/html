@@ -213,71 +213,72 @@
   ],
   "product": [
     {
-      "id": 12,
-      "Name": "Bánh Bông Lan",
-      "idName": "90",
-      "price": "90"
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 2
     },
     {
-      "id": 13,
-      "Name": "Bánh Gạo",
-      "idName": "is9",
-      "price": "9000"
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 3
     },
     {
-      "Name": "Bánh chocopai",
-      "price": "78",
-      "idName": "is10",
-      "id": 14
-    },
-    {
-      "Name": "Thạch Dừa",
-      "price": "9",
-      "idName": "is11",
-      "id": 15
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 4
     }
   ],
   "brokenProduct": [
     {
-      "id": 11,
-      "Name": "Bánh Mỳ",
-      "price": "900",
-      "idName": "s1"
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 3
+    },
+    {
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "price": "9000",
+      "number": 1,
+      "id": 4
     }
   ],
   "buy": [
     {
-      "id": 11,
-      "Name": "Bánh Mỳ",
-      "idName": "s1",
-      "price": "900"
-    },
-    {
-      "id": 12,
+      "id": 14,
       "Name": "Bánh Bông Lan",
       "idName": "90",
+      "number": 1,
       "price": "90"
     },
     {
-      "id": 13,
-      "Name": "Bánh Gạo",
-      "idName": "is9",
+      "id": 1,
+      "Name": "cao văn nam",
+      "idName": "idName",
+      "number": 1,
       "price": "9000"
     }
   ],
   "Client": [
     {
-      "id": 3,
-      "idName": "s3",
-      "Name": "Ông C",
-      "number": "777777777",
-      "passport": "777887887",
-      "birth": "12/12/1990",
-      "email": "nguyenvanA@gmail.com",
-      "address": "Hà Nội"
+      "id": 4,
+      "idName": "s7",
+      "Name": "Cao Vaen AN,",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-26",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii"
     },
     {
-      "id": 4,
+      "id": 5,
       "idName": "s7",
       "Name": "ông h",
       "number": "0824006601",
@@ -285,6 +286,50 @@
       "birth": "2022-08-26",
       "email": "caovannam785@gmail.com",
       "address": "hanojii"
+    },
+    {
+      "idName": "idName",
+      "Name": "Caonam",
+      "number": "0824006601",
+      "passport": "999088",
+      "birth": "2022-08-11",
+      "email": "caovannam785@gmail.com",
+      "address": "hanojii",
+      "id": 6
+    }
+  ],
+  "Supplier": [
+    {
+      "id": 1,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "jioi",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
+    },
+    {
+      "name": "công ty A",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
+    },
+    {
+      "id": 4,
+      "name": "cao văn nam",
+      "product": "Cao văn Nam",
+      "phone": "0824006601",
+      "email": "caovannam785@gmail.com",
+      "city": "hà nội"
     }
   ]
 }
